@@ -15,5 +15,40 @@ O projeto foi estruturado em camadas para separar a lógica de negócio (gerenci
 ```
 
 ---
+## **✨ Funcionalidades**
 
-##
+O sistema permite realizar as principais operações de um CRUD (Create, Read, Update, Delete):
+
+- **Adicionar (Create):** Cadastrar novos usuários.
+- **Listar (Read):** Exibir todos os usuários em uma tabela (```Treeview```).
+- **Buscar (Search):** Filtrar usuários por nome ou email em tempo real.
+- **Editar (Update):** Carregar dados de um usuário selecionado para edição.
+- **Atualizar (Update):** Salvar as alterações de um usuário.
+- **Excluir (Delete):** Remover um usuário selecionado.
+
+---
+## **🛠️ Tecnologias Utilizadas**
+
+- **Python 3.x**
+- **Tkinter:** Biblioteca padrão do Python para criação de GUIs.
+- **```tkinter.ttk```:** Módulo para widgets temáticos (usado para a tabela ```Treeview```).
+- **JSON:** Formato de arquivo usado para armazenamento de dados (```usuarios.txt```).
+
+---
+## **⚙️ Como Rodar o Projeto**
+
+### **1. Pré-requisitos**
+Certifique-se de ter o **Python 3.x** instalado em seu sistema. Nenhuma biblioteca externa (como ```pip install``` ) é necessária, pois ```tkinter```, ```json``` e ```os``` são módulos padrão do Python.
+
+### **2. Clonar o Repositório**
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
+```
+
+### **3. Execução**
+Execute o arquivo principal ```main.py``` diretamente:
+```bash
+python main.py
+```
+
+A janela do **Gerenciador de Usuários** será aberta.
